@@ -21,5 +21,5 @@ Usage
 	    $qrender = $this->getServiceLocator()->get('QRender')->init($client, $endpoint);
         $qrender->setData('My Data', 50, 50);
         $qrCode = $qrender->generate();
-   ```php
+   ```
  
